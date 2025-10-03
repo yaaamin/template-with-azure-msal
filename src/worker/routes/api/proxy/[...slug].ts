@@ -2,7 +2,7 @@
 
 import { defineEventHandler, proxyRequest, getQuery } from "h3";
 
-const baseUrl = "https://base.ithaa.org/";
+const baseUrl = import.meta.env.BASE_URL;
 
 export default defineEventHandler(async (event) => {
   let slug = event.context.params?.slug;
