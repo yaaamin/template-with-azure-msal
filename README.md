@@ -39,7 +39,7 @@ Get started in minutes with local development or deploy directly via the Cloudfl
 To start a new project with this template, run:
 
 ```bash
-bun create cloudflare --template https://github.com/yaaamin/vite-tanstack-nitrojs
+bun create cloudflare --template https://github.com/yaaamin/template-with-azure-msal
 ```
 
 A live deployment of this template is available at:
